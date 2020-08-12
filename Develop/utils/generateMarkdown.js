@@ -6,8 +6,6 @@ function generateMarkdown(data) {
 
   GitHub Username: ${data.name}
 
-  Email Address: ${data.email}
-
   ## Description
 
   ${data.description}
