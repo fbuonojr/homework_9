@@ -3,11 +3,10 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
-// const writeFileAsync = util.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = [
-    [
         {
             type: "input",
             name: "name",
@@ -53,17 +52,16 @@ const questions = [
             name: "contributeRepo",
             message: "What does the user need to know about contributing to the repo?"
         }
-    ]
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-        fs.writeFile(fileName, data, function(err){
-            if(err){
-                return console.log("line 63 error " + err);
-            }
-        });
-}
+// function writeToFile(fileName, data) {
+//         fs.writeFile(fileName, data, function(err){
+//             if(err){
+//                 return console.log("line 63 error " + err);
+//             }
+//         });
+// }
 
 // function to initialize program
 function init() {
@@ -75,7 +73,7 @@ init()
 .then(function(answers){
     const md = generateMarkdown(answers);
 
-    return writeToFile("createdReadMe.md", md);
+    return writeFileAsync("createdReadMe.md", md);
 })
 .then(function(){
     console.log("Successfully wrote read me!");
