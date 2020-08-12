@@ -60,7 +60,7 @@ const questions = [
 function writeToFile(fileName, data) {
         fs.writeFile(fileName, data, function(err){
             if(err){
-                return console.log(err);
+                return console.log("line 63 error " + err);
             }
         });
 }
@@ -81,5 +81,5 @@ init()
     console.log("Successfully wrote read me!");
 })
 .catch(function(err){
-    console.log(err);
+    console.log("line 84 error " + err);
 })
