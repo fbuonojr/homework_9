@@ -65,10 +65,15 @@ function init() {
 }
 
 // function call to initialize program
-init().then(function(answers){
+init()
+.then(function(answers){
     const md = generateMarkdown(answers);
 
     return writeFileAsync("createdReadMe.md", md);
-}).then(function(){
+})
+.then(function(){
     console.log("Successfully wrote read me!");
+})
+.catch(function(err){
+    console.log("Error: " + err);
 })
