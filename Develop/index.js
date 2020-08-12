@@ -79,5 +79,5 @@ init()
     console.log("Successfully wrote read me!");
 })
 .catch(function(err){
-    console.log("line 84 error " + err);
+    console.log(err);
 })
