@@ -48,7 +48,6 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any additional questions, feel free to reach out to me at ${data.email}
-
 `;
 }
 
