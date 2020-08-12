@@ -12,6 +12,10 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  What licenses should this project have?
+
+  ${data.license}
+
   ## Table of Contents
 
   * [Installation](#installation)
@@ -43,10 +47,7 @@ function generateMarkdown(data) {
   Run ${data.tests} to run tests
 
   ## Questions
-
-  What licenses should this project have?
-
-  ${data.license}
+  If you have any additional questions, feel free to reach out to me at ${data.email}
 
 `;
 }
