@@ -32,18 +32,23 @@ const questions = [
         },
         {
             type: "input",
-            name: "food",
-            message: "What is your favorite food?"
+            name: "dependencies",
+            message: "What command should be run to install your dependencies?"
         },
         {
             type: "input",
-            name: "github",
-            message: "Enter your GitHub Username"
+            name: "tests",
+            message: "What command should be run to run tests?"
         },
         {
             type: "input",
-            name: "linkedin",
-            message: "Enter your LinkedIn URL."
+            name: "useRepo",
+            message: "What does the user need to know about using the repo?"
+        },
+        {
+            type: "input",
+            name: "contributeRepo",
+            message: "What does the user need to know about contributing to the repo?"
         }
     ]
 ];
