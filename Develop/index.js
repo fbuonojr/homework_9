@@ -28,9 +28,15 @@ const questions = [
             message: "Please write a short description of the project?"
         },
         {
-            type: "name",
+            type: "checkbox",
+            choices: [
+                "MIT",
+                "Apache",
+                "ISC",
+                "None"
+            ],
             name: "license",
-            message: "What licenses should your project have (Apache, MIT, ISC, None)?"
+            message: "What licenses should your project have?"
         },
         {
             type: "input",
