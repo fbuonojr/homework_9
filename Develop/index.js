@@ -69,4 +69,6 @@ init().then(function(answers){
     const md = generateMarkdown(answers);
 
     return writeFileAsync("createdReadMe.md", md);
-});
+}).then(function(){
+    console.log("Successfully wrote read me!");
+})
