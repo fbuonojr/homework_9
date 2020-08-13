@@ -1,7 +1,24 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  var badge = ""
+  for(var i = 0; i < data.license.length; i++){
+  if(data.license[i] === "Apache"){
+    badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  }
+ }
   
+ for(var i = 0; i < data.license.length; i++){
+  if (data.license[i] === "MIT"){
+    badge = badge + "\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  }
+}
+for(var i = 0; i < data.license.length; i++){
+  if (data.license[i] === "ISC"){
+    badge = badge + "\n[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+  }
+}
+  return `# ${data.title}
+
   ## Description
 
   ${data.description}
@@ -9,6 +26,8 @@ function generateMarkdown(data) {
   What licenses should this project have?
 
   ${data.license}
+
+  ${badge}
 
   ## Table of Contents
 
