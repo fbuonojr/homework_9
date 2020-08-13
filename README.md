@@ -114,7 +114,7 @@ You are required to submit the following:
 
 This assignment uses javascript file to write to a md file to create a readme based off of user input.
 
-* link to GitHub Repository:
+* link to GitHub Repository: https://github.com/fbuonojr/homework_9
 
 * link to screencastiy video showing application running: https://drive.google.com/file/d/1NTqowSUKC_AJWH_a8zDvekgCk2yDn57Z/view
 
