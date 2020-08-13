@@ -1,16 +1,15 @@
-# f
+# Homework 9
 
   ## Description
 
-  f
+  This project generates a readme
 
   What licenses should this project have?
 
-  MIT,Apache,ISC
-  
+  MIT,Apache
+
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   ## Table of Contents
 
@@ -28,20 +27,20 @@
 
   To install necessary dependencies, run: 
 
-  f
+  npm i
 
   ## Usage
 
-  f
+  Install inquirer before running it
 
   ## Contributing
 
-  f
+  
 
   ## Tests
 
-  Run f to run tests
+  Run npm test to run tests
 
   ## Questions
-  If you have any additional questions, feel free to reach out to me at f
-  GitHub Profile: github.com/f
+  If you have any additional questions, feel free to reach out to me at fbuonojr@fordham.edu
+  GitHub Profile: github.com/fbuonojr

@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  var badge = ""
+  var badge = "";
   for(var i = 0; i < data.license.length; i++){
   if(data.license[i] === "Apache"){
     badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
@@ -15,6 +15,12 @@ function generateMarkdown(data) {
 for(var i = 0; i < data.license.length; i++){
   if (data.license[i] === "ISC"){
     badge = badge + "\n[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+  }
+}
+
+for(var i = 0; i < data.license.length; i++){
+  if (data.license[i] === "ISC"){
+    badge = badge + "\n[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
   }
 }
   return `# ${data.title}
