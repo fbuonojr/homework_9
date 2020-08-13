@@ -118,4 +118,4 @@ This assignment uses javascript file to write to a md file to create a readme ba
 
 * link to screencastiy video showing application running: https://drive.google.com/file/d/1NTqowSUKC_AJWH_a8zDvekgCk2yDn57Z/view
 
-* link to created README: [createdReadMe.md](./Develop/createdReadMe.md)
+* link to created README: [createdReadMe.md](./Develop/createdReadMe.md) or https://github.com/fbuonojr/homework_9/blob/master/Develop/createdReadMe.md
