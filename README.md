@@ -1,4 +1,4 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
+<!-- # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
@@ -106,4 +106,16 @@ You are required to submit the following:
 * A sample README.md file for a project repository generated using your application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+ -->
 
+# Frank Buono Homework 9: README Generator
+
+## Technologies used: JavaScript, Node.js
+
+This assignment uses javascript file to write to a md file to create a readme based off of user input.
+
+* link to GitHub Repository:
+
+* link to screencastiy video showing application running: https://drive.google.com/file/d/1NTqowSUKC_AJWH_a8zDvekgCk2yDn57Z/view
+
+* link to created README: [createdReadMe.md](./Develop/createdReadMe.md)
