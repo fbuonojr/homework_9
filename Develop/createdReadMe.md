@@ -1,14 +1,14 @@
-# Homework 9
+# Homework 9: README generator
 
   ## Description
 
-  This project generates a readme
+  This project uses javascript and node.js to write to a .md file to generate a readme.
 
   What licenses should this project have?
 
-  MIT,Apache
+  MIT
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
@@ -31,11 +31,11 @@
 
   ## Usage
 
-  Install inquirer before running it
+  Install npm packages like inquirer
 
   ## Contributing
 
-  
+  PLease form repo
 
   ## Tests
 
